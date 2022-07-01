@@ -4,13 +4,13 @@ Projeto criado idealizado pela DIO com a orientação da Alexia Santos, consiste
 
 ## Como rodar o projeto
 
--npm i
--npm run build
--npm run dev
+- npm i
+- npm run build
+- npm run dev
 
 ## Bibliotecas
 
--Express
--Mongoose
--Nodemon
--Dotenv
+- Express
+- Mongoose
+- Nodemon
+- Dotenv
