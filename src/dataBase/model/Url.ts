@@ -1,13 +1,13 @@
 import { prop, getModelForClass } from "@typegoose/typegoose";
 
 export class URL {
-  @prop({ required: true })
+  @prop({ type: String })
   public hash?: string;
 
-  @prop({ required: true })
-  public originalURL?: string;
+  @prop({ type: String })
+  public originalUrl?: string;
 
-  @prop({ required: true })
+  @prop({ type: String })
   public shortner?: string;
 }
 

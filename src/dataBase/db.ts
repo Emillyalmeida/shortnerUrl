@@ -4,8 +4,10 @@ import { Config } from "../config/constrants";
 export class DBconection {
   static async Conection() {
     try {
-      await mongoose.connect(Config.MONGO_CONNECTION);
+      await mongoose.connect(Config.MONGO_CONNECTION!);
       console.log("db connected");
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
   }
 }
