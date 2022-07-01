@@ -4,6 +4,8 @@
   "description": "this is a short url",
   "main": "index.js",
   "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +23,7 @@
     "express": "^4.18.1",
     "mongoose": "^6.4.1",
     "nodemon": "^2.0.18",
+    "shortid": "^2.2.16",
     "typescript": "^4.7.4"
   },
   "devDependencies": {
